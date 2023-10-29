@@ -15,8 +15,8 @@
 # Clear the login password
 sed -i 's/$1$V4UetPzk$CYXluq4wUazHjmCDBCqXF.//g' package/lean/default-settings/files/zzz-default-settings
 # Change the theme
-sed -i 's/luci-theme-bootstrap/luci-theme-argonne/g' feeds/luci/collections/luci/Makefile
+# sed -i 's/luci-theme-bootstrap/luci-theme-argonne/g' feeds/luci/collections/luci/Makefile
 # Change the kernel
 sed -i 's/KERNEL_PATCHVER:=5.15/KERNEL_PATCHVER:=6.1/g' target/linux/x86/Makefile
 # Change the version
-sed -i 's/R23.4.1/By Kevin/g' package/lean/default-settings/files/zzz-default-settings
+# sed -i 's/R23.4.1/By Kevin/g' package/lean/default-settings/files/zzz-default-settings
